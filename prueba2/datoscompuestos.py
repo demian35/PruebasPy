@@ -28,12 +28,12 @@ conjunto={1,2,4,2,3,5}
 
 print(conjunto)
 
-#tipo de dato diccionaro
+#tipo de dato diccionaro la estructura es  'palabra´ : "valor(significado)"
 diccionario={
     'Nombre': "demian",
     'Posicion': "Portero",
     'Club': "Club Universidad AC",
-    'Edad': "36",
+    'Edad': 36,
     'Nacionalidad':"Mexico",
     'Toma': "True"
 }
@@ -43,3 +43,6 @@ print(diccionario)
 
 #imprimimos el valor de la nacionalidad en el diccionario
 print(diccionario['Nacionalidad'])
+
+#manipulacion de dato del diccionario sumandole dos a la edad
+print(diccionario['Edad'] + 2)
