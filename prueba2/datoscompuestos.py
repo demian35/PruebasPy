@@ -40,9 +40,11 @@ diccionario={
 
 #imprimimos el diccionario
 print(diccionario)
+tipo1=type(tupla)
 
 #imprimimos el valor de la nacionalidad en el diccionario
 print(diccionario['Nacionalidad'])
 
 #manipulacion de dato del diccionario sumandole dos a la edad
 print(diccionario['Edad'] + 2)
+print(tipo1)
