@@ -14,4 +14,11 @@ print(distintoque)
 
 
 #ejemplo de chocolate 
+a=3
+b=56
+c=53
 
+suma=a+b == c
+print(suma)
+tipo2=type(suma)
+print(tipo2)
