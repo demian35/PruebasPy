@@ -39,5 +39,11 @@ def divideCadena(delimitador):
 
 cadenadividida=divideCadena(" ")
 
+#funcion que busca una cadena dentro de una cadena , regresa el indice donde esta la cadena buscada
+def encuentraCadena(cadena):
+    cadenaEncontrada=cadena1.find(cadena)
+    return cadenaEncontrada
 
-print(cadenadividida)
+resultado=encuentraCadena("De")
+
+print(resultado)
