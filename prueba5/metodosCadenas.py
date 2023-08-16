@@ -1,4 +1,6 @@
 cadena1= "Hola soy Booker Dewitt"
+cadena3="Minumerodeserieesel23124"
+cadena2="123452"
 
 #metodo lower() para convertir caracteres de una cadena a minusculas
 cadenaminusculas=cadena1.lower()
@@ -10,4 +12,11 @@ def converteMayus(cadena):
 
 mayus= converteMayus(cadena1)
 
-print(mayus)
+#metodo que verifica que una funcion es numerica
+cadenaNumerica=cadena2.isnumeric()
+
+#metodo que verifica que una cadena es alfa numerica(no acepta espacios)
+cadenaAlfnum=cadena3.isalnum()
+
+
+print(cadenaAlfnum)
