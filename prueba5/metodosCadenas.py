@@ -18,5 +18,26 @@ cadenaNumerica=cadena2.isnumeric()
 #metodo que verifica que una cadena es alfa numerica(no acepta espacios)
 cadenaAlfnum=cadena3.isalnum()
 
+#funcion que cuenta las ocurrencias de una cadena en una cadena
+def occurrencias(cadena):
+    occurrenciasCadena=cadena1.count(cadena)
+    return occurrenciasCadena
 
-print(cadenaAlfnum)
+numeroOcurrencias=occurrencias("Hola")
+
+#funcion para reemplazar caracteres de una cadena recibe el candidato a reemplazar y su reemplazo
+def reemplazaCaracteres(candidato,charNuevo):
+    cadenaNueva=cadena1.replace(candidato,charNuevo)
+    return cadenaNueva
+
+nuevaCadena=reemplazaCaracteres(" ",",")
+
+#funcion para dividir una cadena, le pasamos el caracter que delimitara las cadenas para dividir
+def divideCadena(delimitador):
+    cadenadividida=cadena1.split(delimitador)
+    return cadenadividida
+
+cadenadividida=divideCadena(" ")
+
+
+print(cadenadividida)
